@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/toko_ikan/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/toko_ikan/static/js/main.ce5f4d7c.chunk.js",
+    "main.js.map": "/toko_ikan/static/js/main.ce5f4d7c.chunk.js.map",
+    "runtime-main.js": "/toko_ikan/static/js/runtime-main.bb6a3780.js",
+    "runtime-main.js.map": "/toko_ikan/static/js/runtime-main.bb6a3780.js.map",
+    "static/js/2.dcf96aef.chunk.js": "/toko_ikan/static/js/2.dcf96aef.chunk.js",
+    "static/js/2.dcf96aef.chunk.js.map": "/toko_ikan/static/js/2.dcf96aef.chunk.js.map",
+    "static/js/3.5f800b0c.chunk.js": "/toko_ikan/static/js/3.5f800b0c.chunk.js",
+    "static/js/3.5f800b0c.chunk.js.map": "/toko_ikan/static/js/3.5f800b0c.chunk.js.map",
+    "index.html": "/toko_ikan/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/toko_ikan/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.dcf96aef.chunk.js.LICENSE.txt": "/toko_ikan/static/js/2.dcf96aef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb6a3780.js",
+    "static/js/2.dcf96aef.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.ce5f4d7c.chunk.js"
+  ]
+}
