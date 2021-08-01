@@ -1,10 +1,11 @@
-import './App.css';
+import NavbarComp from './components/NavbarComp';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Toko Ikan</h1>
-      <small>Created By Imsat16</small>
+      <NavbarComp/>
+      <HomePage/>
     </div>
   );
 }
