@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/toko_ikan/static/css/main.a240b632.chunk.css",
-    "main.js": "/toko_ikan/static/js/main.3079fe1e.chunk.js",
-    "main.js.map": "/toko_ikan/static/js/main.3079fe1e.chunk.js.map",
+    "main.js": "/toko_ikan/static/js/main.378b19a2.chunk.js",
+    "main.js.map": "/toko_ikan/static/js/main.378b19a2.chunk.js.map",
     "runtime-main.js": "/toko_ikan/static/js/runtime-main.15da8722.js",
     "runtime-main.js.map": "/toko_ikan/static/js/runtime-main.15da8722.js.map",
     "static/js/2.e856c33d.chunk.js": "/toko_ikan/static/js/2.e856c33d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.15da8722.js",
     "static/js/2.e856c33d.chunk.js",
     "static/css/main.a240b632.chunk.css",
-    "static/js/main.3079fe1e.chunk.js"
+    "static/js/main.378b19a2.chunk.js"
   ]
 }
