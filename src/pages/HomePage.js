@@ -5,17 +5,17 @@ import {MenuComp, DetailComp, CategoriesComp} from '../components/indexComp';
 function HomePage () {
   return (
     <div>
-      <Container fluid className="mt-3">
+      <Container className="mt-3">
         <Row className="justify-content-between">
-          <Col md={2}>
+          {/* <Col md={2}>
             <CategoriesComp />
-          </Col>
-          <Col md={7}>
+          </Col> */}
+          <Col md={12}>
             <MenuComp />
           </Col>
-          <Col md={3}>
+          {/* <Col md={3}>
             <DetailComp />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>

@@ -21,12 +21,13 @@ function MenuComp () {
   const [newDeskripsiIkan, setNewDeskripsiIkan] = useState ('');
   const [newImgIkan, setNewImgIkan] = useState ('');
 
-  const [isOpen, setIsOpen] = useState (false);
-
   const updateNama = id_ikan => {
+    window.location.reload ();
     axios
       .put ('http://localhost:3001/updatenamaikan', {
         nama_ikan: newNamaIkan,
+        deskripsi_ikan: newDeskripsiIkan,
+        img_ikan: newImgIkan,
         id_ikan: id_ikan,
       })
       .then (response => {
@@ -97,15 +98,9 @@ function MenuComp () {
           </ListGroup>
         </Card>
       </Col> */}
+
       <Col>
         <CardGroup>
-          <Card
-            text="center"
-            className="d-none d-md-block text-muted"
-            border="light"
-          >
-            <h3><strong>LIST</strong></h3>
-          </Card>
           <InputGroup className="mb-2">
             <FormControl
               placeholder="Cari yang anda inginkan"
@@ -114,7 +109,7 @@ function MenuComp () {
             />
             <InputGroup.Text id="basic-addon1"><FaSearch /></InputGroup.Text>
           </InputGroup>
-          <Row xs={1} md={3} className="nyekrol">
+          <Row xs={1} md={4} className="nyekrol">
             {itemList.map (itemList => (
               <Col className="my-2" key={itemList.id_ikan}>
                 <Card>
@@ -175,7 +170,7 @@ function MenuComp () {
                     </Accordion>
                     <div className="d-flex justify-content-between ">
                       <small
-                        className="d-flex edit-button justify-content-center align-items-center"
+                        className="d-flex pointer-button justify-content-center align-items-center"
                         variant="primary"
                         onClick={() => getikanid (itemList.id_ikan)}
                       >

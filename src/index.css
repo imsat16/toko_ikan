@@ -10,12 +10,11 @@ code {
     monospace;
 }
 
-.edit-button{
+.pointer-button{
   color: rgb(66, 66, 66);
   font-weight: 600;
 }
 
-.edit-button:hover{
+.pointer-button:hover{
   cursor: pointer;
-  font-size: 15px;
 }

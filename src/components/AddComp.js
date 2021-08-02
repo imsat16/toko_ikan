@@ -33,7 +33,7 @@ function AddComp () {
 
   return (
     <div>
-      <Card className="detailIkan" style={{width: 'auto'}}>
+      <Card className="detailIkan d-none d-md-block" style={{width: 'auto'}}>
         <Card.Header className="text-center text-muted">
           <strong>ADD FISH</strong>
         </Card.Header>
