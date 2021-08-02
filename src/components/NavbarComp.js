@@ -19,7 +19,7 @@ const NavbarComp = () => {
       {/* Desktop */}
       <Navbar variant="dark" className="d-none d-md-block">
         <Container fluid>
-          <Navbar.Brand href="/toko_ikan">
+          <Navbar.Brand href="https://imsat16.github.io/toko_ikan/">
             {/* <strong>TOKO</strong> IKAN */}
             <img
               src={DEFAULTLOGO}
