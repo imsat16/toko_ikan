@@ -43,22 +43,27 @@ app.get ('/getallikan', (req, res) => {
 
 app.get ('/getikanid/:id_ikan', (req, res) => {
   const id_ikan = req.params.id_ikan;
-  db.query ('SELECT * FROM tb_ikan WHERE id_ikan = ?', id_ikan, (err, result) => {
-    if (err) {
-      console.log (err);
-    } else {
-      res.send (result);
+  db.query (
+    'SELECT * FROM tb_ikan WHERE id_ikan = ?',
+    id_ikan,
+    (err, result) => {
+      if (err) {
+        console.log (err);
+      } else {
+        res.send (result);
+      }
     }
-  });
+  );
 });
-
 
 app.put ('/updatenamaikan', (req, res) => {
   const id_ikan = req.body.id_ikan;
   const nama_ikan = req.body.nama_ikan;
+  const deskripsi_ikan = req.body.deskripsi_ikan;
+  const img_ikan = req.body.img_ikan;
   db.query (
-    'UPDATE tb_ikan SET nama_ikan = ? WHERE id_ikan = ?',
-    [nama_ikan, id_ikan],
+    'UPDATE tb_ikan SET nama_ikan=?,deskripsi_ikan=?,img_ikan = ? WHERE id_ikan = ?',
+    [nama_ikan,deskripsi_ikan,img_ikan, id_ikan],
     (err, result) => {
       if (err) {
         console.log (err);
